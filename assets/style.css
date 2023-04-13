@@ -43,6 +43,16 @@ border: 2px solid black;
     
 }
 
+.hidden {
+    display: none;
+
+}
+
+.visible {
+    display: block;
+    visibility: visible;
+}
+
 
 h1 button {
     padding: 5px;

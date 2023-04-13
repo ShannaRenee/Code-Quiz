@@ -4,6 +4,11 @@ var p = document.getElementById("intro");
 var h1 = document.getElementById("mainHeading");
 
 var buttons = document.createElement("div");
+var incor = document.createElement("h2");
+
+
+incor.classList.add("hidden");
+incor.textContent = "Try again!";
 
 startEl.addEventListener("click", startGame);
 
@@ -14,16 +19,7 @@ startTimer();
 Q1();
 }
 
-function startTimer() {
-    var timeInterval = setInterval(function() {
-    secondsLeft--;
-    timeEl.textContent = "Time left: " + secondsLeft;
 
-    if(secondsLeft === 0) {
-        clearInterval(timeInterval);
-    }
-    }, 1000);
-}
 
 function Q1() { 
    p.remove();
@@ -41,8 +37,8 @@ h1.append(buttons);
 buttons.classList.add("buttonContainer");
 buttons.childNodes[3].addEventListener("click", Q2, {once: true});
 
-// buttons.firstElementChild.nextElementSibling.addEventListener("click", Q2);
 }
+
 
 function Q2() {
     h1.textContent = "Question 2: What git command do you use to create a file in your directory?"
@@ -52,6 +48,7 @@ function Q2() {
     buttons.children[2].textContent = "C. touch";
     buttons.children[3].textContent = "D. new file";
     buttons.childNodes[5].addEventListener("click", Q3, {once: true});
+
 }
 
 function Q3() {
