@@ -5,3 +5,8 @@
 
 
 ## Description
+My motivation for building this project was to be able to test the skills we learned this week by
+implementing them into this project. There was a lot of new information we learned this week including
+DOM manipulation and using local storage. Through the process of completing this project, I was able to 
+showcase the new skills I learned. There was a lot of trial and error with this one but I kept on pushing
+through to the end which is teaching me perserverance.
