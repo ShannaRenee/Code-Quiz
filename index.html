@@ -11,14 +11,22 @@
     <div class="timer"></div>
     <div class="container">
         <h1 id="mainHeading">Coding Quiz Challenge</h1>
+            <div class="hide">
+                <button class="hideBtn" id="opt-1" name="choice"></button>
+                <button class="hideBtn" id="opt-2" name="choice"></button>
+                <button class="hideBtn" id="opt-3" name="choice"></button>
+                <button class="hideBtn" id="opt-4" name="choice"></button>
+            </div>
         <p id="intro">This five question timed coding quiz will test your coding knowledge,
         but be careful! Every wrong answer will deduct 15 points from your 
         final score. Are you up to the challenge?</p>
         <button class="startBtn">Start</button>
+    <div id="highScore">
+        <input type="text" class="noshow" id="initials" name="first-name" placeholder="Enter name" />
+        <button class="enter" id="submit">Submit High Score</button>
+    </div>
     </div>
 
-
-    <script src="./assets/test.js"></script>
-    <!-- <script src="./assets/script.js"></script> -->
-</body>
-</html>
+    <script src="assets/test2.js"></script>
+    </body>
+    </html>

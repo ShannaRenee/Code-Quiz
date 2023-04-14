@@ -3,38 +3,84 @@ border: 2px solid black;
 
 } */
 
-
-
-.container {
-    
-    margin: auto;
-    width: 50%;
-    /* border: 2px solid black; */
-    text-align: center;
-    padding: 5% 15% 20% 15%;
-   
+p {
+    font-size: large;
+}
+.hide {
+    display: none;
+}
+.hideBtn {
+    display: none;
 }
 
-.buttonContainer {
+.form {
+    display: block;
+    background-color: rgb(198, 201, 248);
+    border-radius: 20px;
+    text-align: center;
+    color:rgb(7, 7, 102);
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#highScore {
     display: flex;
     flex-direction: column;
-    /* border: 3px solid black; */
-    padding: 20px;
-    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 50px;
     
-
 }
 
-.buttonContainer button {
+.enter {
+    display: none;
+}
+
+.noshow {
+    display: none;
+    
+}
+
+.show {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 5% 15% 20% 15%;
+}
+
+
+.red {
+    background-color: red;
+    display: block;
     margin: 10px;
-    /* padding: 20px; */
+     height: 50px;
+    border-radius: 25px;
+    color: rgb(7, 7, 102);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.reveal {
+    display: block;
+    margin: 10px;
     height: 50px;
     border-radius: 25px;
     background-color: rgb(178, 182, 243);
     color: rgb(7, 7, 102);
     font-weight: bold;
-
+    font-size: larger;
 }
+
+
 #mainHeading {
     display: flex;
     flex-direction: column;
@@ -43,31 +89,20 @@ border: 2px solid black;
     
 }
 
-.hidden {
-    display: none;
 
-}
-
-.visible {
-    display: block;
-    visibility: visible;
-}
-
-
-h1 button {
-    padding: 5px;
-
-
-}
 .timer {
     text-align: end;
+    font-weight: bold;
+    font-size: large;
 
 }
 
-/* .startBtn {
-    align
-    height: 100px;
-    width: 200px; */
-
+.startBtn {
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(178, 182, 243);
+    font-weight: bold;
+}
 
 
